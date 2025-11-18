@@ -1,0 +1,20 @@
+{
+  "name": "aircon_climate",
+  "version": "1.0.0",
+  "content": [
+    "components/aircon_climate/*"
+  ],
+  "platforms": [
+    "climate"
+  ],
+  "dependencies": [
+    "esp32",
+    "uart"
+  ],
+  "requirements": [
+    "esphome>=2025.2.0"
+  ],
+  "codeowners": [
+    "@chris4824"
+  ]
+}
